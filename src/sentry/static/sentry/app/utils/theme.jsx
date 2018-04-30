@@ -1,7 +1,8 @@
 const theme = {
-  white: '#FFFFFF',
+  /*** Colors ***/
   offWhite: '#FAF9FB',
   whiteDark: '#fbfbfc',
+  white: '#FFFFFF',
 
   gray1: '#BDB4C7',
   gray2: '#9585A3',
@@ -85,6 +86,10 @@ const theme = {
       textDark: '#5d3e3b',
     },
   },
+
+  // Max-width for displaying slugs
+  // i.e. organization, project, or team
+  maxSlugWidth: '200px',
 
   grid: 8,
   fontSizeSmall: '12px',
