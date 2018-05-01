@@ -148,7 +148,6 @@ def pytest_configure(config):
 
             'vsts.client-id': 'vsts-client-id',
             'vsts.client-secret': 'vsts-client-secret',
-            'vsts.verification-token': 'vsts-verification-token',
         }
     )
 
